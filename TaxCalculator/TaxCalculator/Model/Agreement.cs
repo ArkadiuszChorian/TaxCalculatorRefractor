@@ -74,7 +74,6 @@ namespace TaxCalculator.Model
 
         private double ObliczPodatek()
         {
-            Console.WriteLine(PodstawaOpodatkowaniaZredukowana);
             return (PodstawaOpodatkowaniaZredukowanaZaokraglona * _agreementConfig.ProcentPodatkuDochodowego) / 100;
         }
 
